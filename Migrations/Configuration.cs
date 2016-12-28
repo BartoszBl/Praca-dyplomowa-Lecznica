@@ -9,7 +9,7 @@ namespace Lecznica.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
             ContextKey = "Lecznica.Models.LecznicaDBContext";
         }
 

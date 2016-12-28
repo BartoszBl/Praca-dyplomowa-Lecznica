@@ -45,7 +45,7 @@ namespace Lecznica.Models
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,Imie,Nazwisko")] Clients clients)
+        public ActionResult Create([Bind(Include = "ID,Imie,Nazwisko,Telefon")] Clients clients)
         {
             if (ModelState.IsValid)
             {
@@ -77,7 +77,7 @@ namespace Lecznica.Models
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID,Imie,Nazwisko")] Clients clients)
+        public ActionResult Edit([Bind(Include = "ID,Imie,Nazwisko,Telefon")] Clients clients)
         {
             if (ModelState.IsValid)
             {
