@@ -66,6 +66,5 @@ C:\Users\Bartosz\Desktop\Informatyka 2016-2017\Dyplomówka\Lecznica\bin\Microsof
 C:\Users\Bartosz\Desktop\Informatyka 2016-2017\Dyplomówka\Lecznica\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Bartosz\Desktop\Informatyka 2016-2017\Dyplomówka\Lecznica\obj\Debug\Lecznica.dll
 C:\Users\Bartosz\Desktop\Informatyka 2016-2017\Dyplomówka\Lecznica\obj\Debug\Lecznica.pdb
-C:\Users\Bartosz\Desktop\Informatyka 2016-2017\Dyplomówka\Lecznica\obj\Debug\Lecznica.csprojResolveAssemblyReference.cache
 C:\Users\Bartosz\Desktop\Informatyka 2016-2017\Dyplomówka\Lecznica\obj\Debug\Lecznica.Migrations.InitialCreate.resources
 C:\Users\Bartosz\Desktop\Informatyka 2016-2017\Dyplomówka\Lecznica\obj\Debug\Lecznica.csproj.GenerateResource.Cache

@@ -5,7 +5,7 @@ namespace Lecznica.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<Lecznica.Models.LecznicaDBContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<Lecznica.Models.LeWetDBEntities>
     {
         public Configuration()
         {
@@ -13,7 +13,7 @@ namespace Lecznica.Migrations
             ContextKey = "Lecznica.Models.LecznicaDBContext";
         }
 
-        protected override void Seed(Lecznica.Models.LecznicaDBContext context)
+        protected override void Seed(Lecznica.Models.LeWetDBEntities context)
         {
             //  This method will be called after migrating to the latest version.
 

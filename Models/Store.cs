@@ -7,17 +7,17 @@ using System.Web.Mvc;
 
 namespace Lecznica.Models
 {
-    public class Clients
+    public class Store
     {
         public int ID { get; set; }
         public string Imie { get; set; }
         public string Nazwisko { get; set; }
         public string Telefon { get; set; }
-       
+
     }
 
     public class LecznicaDBContext : DbContext
     {
-        public DbSet<Clients> Clients { get; set; }
+        public DbSet<Store> Store { get; set; }
     }
 }
