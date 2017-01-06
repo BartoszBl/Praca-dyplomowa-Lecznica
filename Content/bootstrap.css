@@ -311,11 +311,17 @@ html {
 }
 
 body {
+    background-image: url(/Img/background.jpg);  /*T³o*/
+
+
+ background-size:cover;
+ padding-bottom:0;
+
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
-  color: #333333;
-  background-color: #ffffff;
+  color: black;
+
 }
 
 input,

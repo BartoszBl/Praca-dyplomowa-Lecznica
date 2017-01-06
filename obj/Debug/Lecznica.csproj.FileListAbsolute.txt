@@ -68,3 +68,4 @@ C:\Users\Bartosz\Desktop\Informatyka 2016-2017\Dyplomówka\Lecznica\obj\Debug\Le
 C:\Users\Bartosz\Desktop\Informatyka 2016-2017\Dyplomówka\Lecznica\obj\Debug\Lecznica.pdb
 C:\Users\Bartosz\Desktop\Informatyka 2016-2017\Dyplomówka\Lecznica\obj\Debug\Lecznica.Migrations.InitialCreate.resources
 C:\Users\Bartosz\Desktop\Informatyka 2016-2017\Dyplomówka\Lecznica\obj\Debug\Lecznica.csproj.GenerateResource.Cache
+C:\Users\Bartosz\Desktop\Informatyka 2016-2017\Dyplomówka\Lecznica\obj\Debug\Lecznica.csprojResolveAssemblyReference.cache
