@@ -1,35 +1,43 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Lecznica";
 }
 
 
 
 <div class="row">
-  
-    <div class="col-md-4">
+  <center>
+    <div class="col-md">
         <h2>Terminarz</h2>
-        <p>
-            Tutaj będzie odnośnik do terminarzu
-        </p>
+       
         <p><a class="btn btn-default" @Html.ActionLink("Terminarz", "Timetable", "Home") </a></p>
     </div>
-    <div class="col-md-4">
-       <!-- <h2>Klienci</h2>
-        <p>Tutaj będzie możliwość wejścia w dane klientów</p>-->
-        <a href="Clients"><img src="~/Img/clients.jpg" width="250px" height="250px" alt="tekst alternatywny" /></a>
-       <!-- <p><a class="btn btn-default" @Html.ActionLink("Klienci", "Index", "Clients")</a></p>-->
+    <div class="col-md">
+       <h2>Klienci</h2>
+       
+        <!--<a href="Clients"><img src="~/Img/Clients.png" width="70px" height="70px" alt="Klienci" /></a> -->
+        
+        <p><a class="btn btn-default" @Html.ActionLink("Spis Klientów", "Index", "Clients")</a></p>
     </div>
-    <div class="col-md-4">
+    <div class="col-md">
         <h2>Magazyn</h2>
-        <p>Tutaj będzie możliwość sprawdzenia stanu magazynu</p>
+        
         <p><a class="btn btn-default" @Html.ActionLink("Magazyn", "Index", "Storerooms")</a></p>
     </div>
 
-    <div class="col-md-4">
+    <div class="col-md">
         <h2>Raporty</h2>
-        <p>Tutaj będzie możliwość wygenerowania raportów</p>
+       
         <p><a class="btn btn-default" @Html.ActionLink("Raporty", "Reports", "Home")</a></p>
     </div>
+      <div class="col-md">
+          <h2>Operacje</h2>
 
+          <p><a class="btn btn-default" @Html.ActionLink("Operacje", "Index", "Operations") </a></p>
+      </div>
+    <div class="col-md">
+        <h2><center>Nowości</center></h2>
+  
+    </div>
+      </center>
 
 </div>

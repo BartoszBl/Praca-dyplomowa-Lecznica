@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LeWetDBModelStoreContainer" CdmEntityContainer="OperationsEntities">
+    <EntitySetMapping Name="Clients">
+      <EntityTypeMapping TypeName="LeWetDBModel.Clients">
+        <MappingFragment StoreEntitySet="Clients">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Imie" ColumnName="Imie" />
+          <ScalarProperty Name="Nazwisko" ColumnName="Nazwisko" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Operations">
+      <EntityTypeMapping TypeName="LeWetDBModel.Operations">
+        <MappingFragment StoreEntitySet="Operations">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nazwa_operacji" ColumnName="Nazwa operacji" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Storeroom">
+      <EntityTypeMapping TypeName="LeWetDBModel.Storeroom">
+        <MappingFragment StoreEntitySet="Storeroom">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nazwa_produktu" ColumnName="Nazwa_produktu" />
+          <ScalarProperty Name="Ilość" ColumnName="Ilość" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
