@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="LeWetDBModelStoreContainer" CdmEntityContainer="OperationsEntities">
+  <EntityContainerMapping StorageEntityContainer="OperationsModelStoreContainer" CdmEntityContainer="LeWetDBEntities1">
     <EntitySetMapping Name="Clients">
-      <EntityTypeMapping TypeName="LeWetDBModel.Clients">
+      <EntityTypeMapping TypeName="OperationsModel.Clients">
         <MappingFragment StoreEntitySet="Clients">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Imie" ColumnName="Imie" />
@@ -12,19 +12,13 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Operations">
-      <EntityTypeMapping TypeName="LeWetDBModel.Operations">
+      <EntityTypeMapping TypeName="OperationsModel.Operations">
         <MappingFragment StoreEntitySet="Operations">
           <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="Nazwa_operacji" ColumnName="Nazwa operacji" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
-    <EntitySetMapping Name="Storeroom">
-      <EntityTypeMapping TypeName="LeWetDBModel.Storeroom">
-        <MappingFragment StoreEntitySet="Storeroom">
-          <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="Nazwa_produktu" ColumnName="Nazwa_produktu" />
-          <ScalarProperty Name="Ilość" ColumnName="Ilość" />
+          <ScalarProperty Name="Rodzaj_operacji" ColumnName="Rodzaj_operacji" />
+          <ScalarProperty Name="Imie" ColumnName="Imie" />
+          <ScalarProperty Name="Imie_zwierzecia" ColumnName="Imie_zwierzecia" />
+          <ScalarProperty Name="Opis_operacji" ColumnName="Opis_operacji" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

@@ -13,10 +13,10 @@ namespace Lecznica.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class LeWetDBEntities : DbContext
+    public partial class LeWetDBEntities1 : DbContext
     {
-        public LeWetDBEntities()
-            : base("name=LeWetDBEntities")
+        public LeWetDBEntities1()
+            : base("name=LeWetDBEntities1")
         {
         }
     
@@ -26,7 +26,6 @@ namespace Lecznica.Models
         }
     
         public virtual DbSet<Clients> Clients { get; set; }
-
-        public System.Data.Entity.DbSet<Lecznica.Models.Operations> Operations { get; set; }
+        public virtual DbSet<Operations> Operations { get; set; }
     }
 }

@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="LeWetDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+<Schema Namespace="OperationsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
   <EntityType Name="Clients">
     <Key>
       <PropertyRef Name="Id" />
     </Key>
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="Imie" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Imie" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
     <Property Name="Nazwisko" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
     <Property Name="Telefon" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
   </EntityType>
@@ -14,19 +14,13 @@
       <PropertyRef Name="Id" />
     </Key>
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="Nazwa_operacji" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Rodzaj_operacji" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Imie" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Imie_zwierzecia" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Opis_operacji" Type="String" MaxLength="999" FixedLength="true" Unicode="true" />
   </EntityType>
-  <EntityType Name="Storeroom">
-    <Key>
-      <PropertyRef Name="Id" />
-    </Key>
-    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="Nazwa_produktu" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
-    <Property Name="Ilość" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
-  </EntityType>
-  <EntityContainer Name="OperationsEntities" annotation:LazyLoadingEnabled="true">
+  <EntityContainer Name="LeWetDBEntities1" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Clients" EntityType="Self.Clients" />
     <EntitySet Name="Operations" EntityType="Self.Operations" />
-    <EntitySet Name="Storeroom" EntityType="Self.Storeroom" />
   </EntityContainer>
 </Schema>

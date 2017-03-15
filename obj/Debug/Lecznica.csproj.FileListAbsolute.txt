@@ -1,3 +1,5 @@
+C:\Users\Bartosz\Desktop\Informatyka 2016-2017\Dyplomówka\Lecznica\obj\Debug\Lecznica.Migrations.InitialCreate.resources
+C:\Users\Bartosz\Desktop\Informatyka 2016-2017\Dyplomówka\Lecznica\obj\Debug\Lecznica.csproj.GenerateResource.Cache
 C:\Users\Bartosz\Desktop\Informatyka 2016-2017\Dyplomówka\Lecznica\bin\roslyn\csc.exe
 C:\Users\Bartosz\Desktop\Informatyka 2016-2017\Dyplomówka\Lecznica\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\Users\Bartosz\Desktop\Informatyka 2016-2017\Dyplomówka\Lecznica\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -66,6 +68,10 @@ C:\Users\Bartosz\Desktop\Informatyka 2016-2017\Dyplomówka\Lecznica\bin\Microsof
 C:\Users\Bartosz\Desktop\Informatyka 2016-2017\Dyplomówka\Lecznica\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Bartosz\Desktop\Informatyka 2016-2017\Dyplomówka\Lecznica\obj\Debug\Lecznica.dll
 C:\Users\Bartosz\Desktop\Informatyka 2016-2017\Dyplomówka\Lecznica\obj\Debug\Lecznica.pdb
-C:\Users\Bartosz\Desktop\Informatyka 2016-2017\Dyplomówka\Lecznica\obj\Debug\Lecznica.Migrations.InitialCreate.resources
-C:\Users\Bartosz\Desktop\Informatyka 2016-2017\Dyplomówka\Lecznica\obj\Debug\Lecznica.csproj.GenerateResource.Cache
+C:\Users\Bartosz\Desktop\Informatyka 2016-2017\Dyplomówka\Lecznica\bin\System.Net.Http.Formatting.dll
+C:\Users\Bartosz\Desktop\Informatyka 2016-2017\Dyplomówka\Lecznica\bin\System.Web.Http.dll
+C:\Users\Bartosz\Desktop\Informatyka 2016-2017\Dyplomówka\Lecznica\bin\System.Web.Http.WebHost.dll
+C:\Users\Bartosz\Desktop\Informatyka 2016-2017\Dyplomówka\Lecznica\bin\System.Net.Http.Formatting.xml
+C:\Users\Bartosz\Desktop\Informatyka 2016-2017\Dyplomówka\Lecznica\bin\System.Web.Http.xml
+C:\Users\Bartosz\Desktop\Informatyka 2016-2017\Dyplomówka\Lecznica\bin\System.Web.Http.WebHost.xml
 C:\Users\Bartosz\Desktop\Informatyka 2016-2017\Dyplomówka\Lecznica\obj\Debug\Lecznica.csprojResolveAssemblyReference.cache

@@ -20,6 +20,9 @@ namespace Lecznica.Controllers
             return View(db.Storeroom.ToList());
         }
 
+
+    
+
         // GET: Storerooms/Details/5
         public ActionResult Details(int? id)
         {
